@@ -1,0 +1,19 @@
+{
+  "_comment": "postal_code picks which local ad each chain serves. 'merchant' is matched (case-insensitive, trimmed) against the ad feed's merchant name. Stores with merchant=null publish no ads the feed carries; they stay in the app as columns with no data.",
+  "postal_code": "95816",
+  "area": "Midtown / Downtown / East Sacramento",
+  "stores": [
+    {"id": "safeway", "name": "Safeway", "merchant": "Safeway", "grocery_only": true},
+    {"id": "savemart", "name": "Save Mart", "merchant": "Save Mart", "grocery_only": true},
+    {"id": "raleys", "name": "Raley's", "merchant": "Raley's", "grocery_only": true},
+    {"id": "grocery_outlet", "name": "Grocery Outlet", "merchant": "Grocery Outlet", "grocery_only": true},
+    {"id": "target", "name": "Target", "merchant": "Target", "grocery_only": false},
+    {"id": "walmart", "name": "Walmart", "merchant": "Walmart", "grocery_only": false},
+    {"id": "costco", "name": "Costco", "merchant": "Costco", "grocery_only": false},
+    {"id": "sprouts", "name": "Sprouts", "merchant": "Sprouts Farmers Market", "grocery_only": true},
+    {"id": "smart_final", "name": "Smart & Final", "merchant": "Smart & Final", "grocery_only": true, "skip_flyers": "business"},
+    {"id": "foods_co", "name": "Foods Co", "merchant": "Foods Co", "grocery_only": true},
+    {"id": "winco", "name": "WinCo", "merchant": null, "grocery_only": true},
+    {"id": "trader_joes", "name": "Trader Joe's", "merchant": null, "grocery_only": true}
+  ]
+}
